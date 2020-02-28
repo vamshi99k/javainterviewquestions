@@ -1,0 +1,142 @@
+
+
+#OBJECT OREINTED PROGRAMMIG :
+
+
+1.what is class?
+		>class is blueprint which is a collection of individual objects
+		>class is a logica entity
+		>without class object cannot be created
+		>class contain follwing members: -blocks
+										 -states
+										 -bheaviours
+										 -nested classes
+		
+2.object:
+        
+		>object is instance of class
+		>any physical or non physical entity that has defined state and bheaviours
+		>object cannot be created without class
+		>one object can have more than one reference
+		>software objects are often used to model real world objects>
+		>multiple objects are created from same class called similar objects
+		
+		
+		
+3.#abstraction:
+        >abstracton is the process of hiding the implementaion and showing the functionality to the user
+		
+		>abstraction is achieved through abstract keyword
+		
+		>abstract keyword can be used with methods & classes
+		
+		
+		#abstract methods:
+							abstract methods are such methods which have only method declaration but will 
+							not have method definiton
+							-they are not incomplted methods
+		#abstract classes:
+							-abstract classess are such classes for which 
+							 objects cannot be created
+							-these classes cannot be instatiated howevr there is one rule for abstract classes
+							that is:
+							      if in a class one method is abstract then the class must be declared as abstact class
+								  
+								  
+								  
+
+
+
+
+
+#INTERFACE IN JAVA
+===================
+
+
+#interface:
+			interface is a collection of abstract methods.since java8 ,it can have also
+			default methods and static methods.
+			
+		important poits:
+			>interface can have only final and static variables
+			>interface helps to achive standardziation
+			>an interface can be implemented by using implements keyword
+			>interface can have any number of implementaions
+			>interface promots polymorphism and loose coupling
+			>using interface reference the overriden methods invokes directly
+			>oject of interface and instance of oject acnnot be created
+			>an intefcae cannot implemented from another interface
+			>by using interface we can achive 100% abstraction.
+			>interface supports multiple inheritance
+			>an interface caan extends another interface only
+			>interface can not provide implementaion of abstract class
+			
+			
+			
+			
+			
+#POLYMORISM
+===========
+
+			one object have many forms is know as polymorphism
+			
+			#compiletime/static polymorphism:
+						any entity which shows polymorphism during compie time is called static polymorphism
+						example:
+						     operator overlpading,method overloading,constructor over loading
+			
+			#runtime/dynamic polymorphism:
+			            any entity which shows polymorphism during runtime is   called dynamic polymorphism
+						    Example: method overriding
+							
+							
+#ENCAPSULATION IN JAVA
+=======================
+            it is a technique that making the fields in a class private and provide the access via public methods 
+			
+			-if a field is declared as private .it cannot be accessed by anyone outside the class there by hiding the fields  within a class
+			-
+			encapsulation is achieved through private keyword
+			
+			
+			
+			
+			
+			
+########################################################################################################################################
+
+
+#wrapper classes in java:
+                         these are classes which allow primtive types to be accessed as objects
+						 
+						 by using WRAPPER CLASSES we can achive pure object orienation programming
+						 
+						 
+						 
+						 
+	#boxing:
+				converting primitive datatype to object is called object
+				
+	#unboxing: 
+				where as converting object to corresponding primitive datatype is called unboxing
+				
+				
+						 
+						 
+						 
+							
+			
+			
+	
+		
+		
+		
+		
+								
+		                        
+				
+   
+   
+   
+   
+   

@@ -1,0 +1,106 @@
+
+
+JAVA BASIC INTERVIEW QUESTIONS 
+==============================
+1.METHOD OVERLOADING:
+					one  class can have more than one method having same name by differing in the 
+					-no of parameters
+					-type of parameters
+					-Sequence of parameters   is called method overloading
+					
+					
+					example:object class have 3 weight methods
+					
+
+
+2.CONSTRUCTOR OVERLOADING:
+					one class has more than one cpnstructor by differing in 
+					-no of parameters
+					-type of parameters
+					-sequence of parameters  is called constructor overloading
+					
+					example: ArrayList has 3 constructors
+					         string has 15 contructors
+					
+					NOte: we can overload any type of methods
+
+
+3.super keyword:
+					-super keyword with variable is used to resolve the name clash between 
+					 chile class varible and parent class varible .
+					-super keyword as a method is used to achive constructot chaining.
+					
+4.this keywword:
+					-this keyword is used to reslove the shadowing probelm
+					-it is used to achive loacal chaining when it is used as method in constructor
+
+5.constructor chaining:
+					
+					the process of taking control from child class constructor to parent class 
+					constructor using super() calls statement is  called constructor chainig
+					
+					
+6.Local chaining:
+					the process of taking control from one constructor to another constructor .it
+					can be achievd by using this() call statement.
+			
+7.method overriding:
+					
+					-the process of redefining the superclass method in the subclass
+					 we call it as method overridig
+					 
+					 -while overriding method signature must be same as sperclass
+					 
+					 example: string class overriding the 
+					           equals()
+							   toString() methods
+
+
+
+8.WHAT IS INHERITANCE:
+
+					-The process of aquiring the properties of one class by another class is called inheritance
+					
+					@Adavantages:
+					-------------
+					-code can be reduced
+					-time for the project completion will be reduced
+					-prfit will be incresed
+					
+					note :
+					 -we cannot ovrride the static,final,private methods of supercalss
+					 
+					#there are 5 types of inheritances there:
+					-single level
+					-multi level
+					-multiple
+					-herirachial
+					-hybrid
+					
+9.why java not support multiple inheritance:
+
+					
+					#reason1
+					-becuse in java all clasess are inherited the object class properties
+					 when we tried aquire more the one super class properties we will get ambiguity
+					 
+					#reason2
+					  when we invoke the subclass construtr it implicitly invokes the super class constructor 
+					  when one class has more than one super class agian subclass constructor get ambuiguity
+					  this proble is know as daimond shape problem
+					  
+					  
+					
+					
+					
+							 
+							 
+				
+
+
+							 
+							 
+							 
+							 
+					
+					 
